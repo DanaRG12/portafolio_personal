@@ -361,7 +361,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
 /* Menú */
 
 /*title*/
@@ -383,16 +383,13 @@ Utiliza las referencias de los breakpoints @media abajo */
     flex-direction:row;
     flex-wrap: wrap;
 }
-
-
 /*Formación Académica*/
-
 /*Experiencia Profesional*/
-
 }
 
+
 /*Mobile*/
-@media (min-width: 425px) {
+@media screen and (max-width: 425px) {
 
 /*Menu*/
 .menu__list{
