@@ -17,7 +17,3 @@ textareas.forEach((textarea) => {
   });
 });
 
-
-botonDescargaCv.addEventListener("click", () => {
-    window.open('./assets/cv/CV - Alejandro Turtola.pdf');
-});
